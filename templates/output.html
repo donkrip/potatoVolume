@@ -1,0 +1,30 @@
+<html>
+<body>
+<p>El calculo de volumen para el objeto papa {{result7}}= {{result5}} m3</p>
+<p>El calculo de volumen para el cultivo total={{result6}} m3</p>
+<p>
+{% if result1 != None %}
+    <a>Imagen 1: Identificación de objetos Papa en Ortofoto</a>
+<img src="data:image/png;base64,{{ result1 }}" width="500">
+{% endif %}
+</p>
+<p>
+{% if result2 != None %}
+    <a>Imagen 2: Objeto papa seleccionado {{result7}} en OrtoFoto</a>
+<img src="data:image/png;base64,{{ result2 }}" width="500">
+{% endif %}
+</p>
+<p>
+{% if result3 != None %}
+    <a>Imagen 3: Identificación de objetos Papa en DEM</a>
+<img src="data:image/png;base64,{{ result3 }}" width="500">
+{% endif %}
+</p>
+<p>
+{% if result4 != None %}
+     <a>Imagen 4: Objeto papa seleccionado {{result7}} en DEM</a>
+<img src="data:image/png;base64,{{ result4 }}" width="500">
+{% endif %}
+</p>
+</body>
+</html>
