@@ -2,7 +2,7 @@
 """
 Created on Tue Jul 10 10:13:51 2018
 
-@author: AccessGrid
+@author: Victor A
 """
 from PIL import Image
 import numpy as np
